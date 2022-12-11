@@ -1,0 +1,26 @@
+﻿  Kursachk1.2.cpp
+C:\Users\Konstantin\source\repos\Kursachk1.2\Kursachk1.2\Kursachk1.2.cpp(40,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\Konstantin\source\repos\Kursachk1.2\Kursachk1.2\Kursachk1.2.cpp(315,34): warning C4267: +=: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Konstantin\source\repos\Kursachk1.2\Kursachk1.2\Kursachk1.2.cpp(318,77): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Konstantin\source\repos\Kursachk1.2\Kursachk1.2\Kursachk1.2.cpp(344,7): warning C4101: check: неиспользованная локальная переменная
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\type_traits(1558,98): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\thread(51): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::invoke<void(__cdecl *)(std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> *,std::vector<int,std::allocator<int>> *,int,int,int),std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>>*,std::vector<int,std::allocator<int>>*,int,int,unsigned __int64>(_Callable &&,_Ty1 &&,std::vector<int,std::allocator<int>> *&&,int &&,int &&,unsigned __int64 &&) noexcept(false)"
+          with
+          [
+              _Callable=void (__cdecl *)(std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> *,std::vector<int,std::allocator<int>> *,int,int,int),
+              _Ty1=std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\thread(61): message : выполняется компиляция ссылки на экземпляр шаблон функции "unsigned int std::thread::_Invoke<_Tuple,0,1,2,3,4,5>(void *) noexcept"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\thread(66): message : выполняется компиляция ссылки на экземпляр шаблон функции "unsigned int (__cdecl *std::thread::_Get_invoke<_Tuple,0,1,2,3,4,5>(std::integer_sequence<size_t,0,1,2,3,4,5>) noexcept)(void *)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\thread(89): message : выполняется компиляция ссылки на экземпляр шаблон функции "void std::thread::_Start<void(__cdecl &)(std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> *,std::vector<int,std::allocator<int>> *,int,int,int),_Ty,std::vector<int,std::allocator<int>>*,int&,int,unsigned __int64>(_Fn,_Ty &&,std::vector<int,std::allocator<int>> *&&,int &,int &&,unsigned __int64 &&)"
+          with
+          [
+              _Ty=std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> *,
+              _Fn=void (__cdecl &)(std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> *,std::vector<int,std::allocator<int>> *,int,int,int)
+          ]
+C:\Users\Konstantin\source\repos\Kursachk1.2\Kursachk1.2\Kursachk1.2.cpp(378): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::thread::thread<void(__cdecl &)(std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> *,std::vector<int,std::allocator<int>> *,int,int,int),std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>>*,std::vector<int,std::allocator<int>>*,int&,int,unsigned __int64,0>(_Fn,std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> *&&,std::vector<int,std::allocator<int>> *&&,int &,int &&,unsigned __int64 &&)"
+          with
+          [
+              _Fn=void (__cdecl &)(std::vector<std::vector<int,std::allocator<int>>,std::allocator<std::vector<int,std::allocator<int>>>> *,std::vector<int,std::allocator<int>> *,int,int,int)
+          ]
+  Kursachk1.2.vcxproj -> C:\Users\Konstantin\source\repos\Kursachk1.2\x64\Debug\Kursachk1.2.exe
